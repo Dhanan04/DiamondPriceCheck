@@ -21,5 +21,5 @@ setup(
     author = 'Dhanan',
     auhor_email ='Dhanan@gamil.com',
     install_requires =get_requirements('requirements.txt'),
-    packages=find_packages(),
+    packages=find_packages()
 )
