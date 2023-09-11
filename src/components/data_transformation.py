@@ -92,7 +92,7 @@ class DataTransformation:
             preprocessing_obj=self.get_data_transformation_object()
             
             target_column = 'price'
-            drop_column=[target_column,'id']   
+            drop_column=[target_column,'id']  
             
             ## dividing the data into dependent and independent features
             ## for train data
